@@ -25,7 +25,7 @@ const toggle_mode=()=>{
         <li><Link to="" className="links">Courses</Link></li>
         <li><Link to="" className="links">Donate</Link></li>
         <li><Link to="/login" className="links">Login</Link></li>
-        <li><Link to="" className="links">Signup</Link></li>
+        <li><Link to="/signup" className="links">Signup</Link></li>
       </ul>
       <div className="search-box">
         <input type="" placeholder="search" />
