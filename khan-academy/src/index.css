@@ -1,6 +1,14 @@
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities; */
+:root {
+    --bg-light-color: #ced8ff;
+    --bg-dark-color: #222;
+    --text-color: #333;
+    --main-color: ;
+    --white-color: #fdfdfd;
+}
+
 
 *{
     margin: 0;
@@ -12,9 +20,10 @@
 .container{
     width:100vw;
     min-height: 100vh;
-    background: #ced8ff;
+    background: var(--bg-light-color);
     transition: 0.5s;
 }
 .container.dark{
-background: #222;
+background: var(--bg-dark-color);
 }
+

@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { Button, Stack } from "@chakra-ui/react";
+import { Button, LightMode, Stack } from "@chakra-ui/react";
 import "./SL.css";
+import { Learner } from "./Learner";
 
 export const SignLog = () => {
-  const [learner, setLearner] = useState(false);
+  const [learner, setLearner] = useState(true);
   const [teacher, setTeacher] = useState(false);
   const [parents, setParent] = useState(false);
 
@@ -34,21 +35,21 @@ export const SignLog = () => {
             <div>
               <Stack direction="row" spacing={4} align="center">
                 <Button
-                  colorScheme="teal"
+                  colorScheme= {learner? "teal":"gray"}
                   variant="solid"
                   onClick={handleLearner}
                 >
                   Learner
                 </Button>
                 <Button
-                  colorScheme="teal"
+                  colorScheme={teacher? "teal":"gray"}
                   variant="solid"
                   onClick={handleTeacher}
                 >
                   Teacher
                 </Button>
                 <Button
-                  colorScheme="teal"
+                  colorScheme={parents? "teal":"gray"}
                   variant="solid"
                   onClick={handleParent}
                 >
@@ -56,6 +57,7 @@ export const SignLog = () => {
                 </Button>
               </Stack>
             </div>
+            <Learner />
           </div>
         </div>
       </div>
