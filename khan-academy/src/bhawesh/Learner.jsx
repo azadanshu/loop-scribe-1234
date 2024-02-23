@@ -1,6 +1,5 @@
 import { Button, Input,  } from "@chakra-ui/react";
 import { useState } from "react";
-import { SignIn } from "./SignIn";
 import { Navigate, useNavigate, } from "react-router-dom";
 
 export const Learner = () => {
@@ -8,7 +7,7 @@ export const Learner = () => {
   
     const navigate = useNavigate();
     const handleSignIn = () => {
-       navigate('/signin2');
+       navigate('/signUp2');
     };
   return (
     <>
@@ -26,7 +25,7 @@ export const Learner = () => {
       <div style={{display:"flex", justifyContent:"center"}}>
         {sign? 
             
-      <Button onClick={handleSignIn} colorScheme='linkedin'>Sign In</Button>
+      <Button onClick={handleSignIn} colorScheme='linkedin'>Continue</Button>
       :""
         }
       </div>

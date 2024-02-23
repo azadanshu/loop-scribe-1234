@@ -1,9 +1,13 @@
 import { Button, Input, InputGroup, InputLeftElement, InputRightElement } from "@chakra-ui/react";
 import { useState } from "react";
 
-export const SignIn = () => {
+export const SignUp = () => {
     const [show, setShow] = useState(false)
   const handleClick = () => setShow(!show)
+
+  const handleSignUp = () => {
+
+  }
   return (
     <>
       <div className="SignLog">
@@ -41,6 +45,7 @@ export const SignIn = () => {
         </Button>
       </InputRightElement>
     </InputGroup>
+    <Button onClick={handleSignUp} colorScheme='linkedin'>Continue</Button>
           </div>
         </div>
       </div>
