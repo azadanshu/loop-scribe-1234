@@ -1,0 +1,32 @@
+.footer-container {
+    margin: 0;
+    background-color: #0b2149;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-column {
+    max-width: 400px;
+  }
+  
+  .footer-column p {
+    width: 80%;
+    text-align: center;
+    font-size: 22px;
+    padding: 40px;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+  }
+  
+  .footer-column li {
+    padding: 15px 5px;
+  }
+  

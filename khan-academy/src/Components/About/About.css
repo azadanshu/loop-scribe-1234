@@ -1,3 +1,4 @@
+/* Footer.css */
 a, i, ul, li, nav, h1, header, hgroup, video, div, h2, p, img {
     margin: 0;
     padding: 0;
@@ -31,6 +32,7 @@ a, i, ul, li, nav, h1, header, hgroup, video, div, h2, p, img {
 a [class^="icon-"] {
     display: inline;
 }
+
 /* About Nav */
 .about-nav {
     background: #304452;
@@ -41,15 +43,15 @@ a [class^="icon-"] {
     z-index: 4;
 }
 .about-shelf a.langs:link:not(.kui-button),
-  .about-shelf a.langs:visited:not(.kui-button),
-  .about-shelf a.langs:focus:not(.kui-button),
-  .about-shelf a.langs:hover:not(.kui-button),
-  .about-shelf a.langs:active:not(.kui-button) {
-      color: #71b307;
-      font-weight: bold;
-      font-size: 18px;
-      text-decoration: none;
-  }
+.about-shelf a.langs:visited:not(.kui-button),
+.about-shelf a.langs:focus:not(.kui-button),
+.about-shelf a.langs:hover:not(.kui-button),
+.about-shelf a.langs:active:not(.kui-button) {
+    color: #71b307;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
 
 .about-nav .about-nav-hamburger {
     background: #304452;
@@ -223,12 +225,9 @@ cite {
     left: 50px;
 }
 
-
 .testimonials .icon-button-right {
     right: 50px;
 }
-
-
 
 .testimonials ul {
     overflow: hidden;
@@ -247,8 +246,6 @@ cite {
     margin-bottom: 50px;
 }
 
-
-
 .testimonial cite {
     display: block;
     font-size: 18px;
@@ -256,19 +253,6 @@ cite {
     letter-spacing: 1px;
     text-align: center;
     text-transform: uppercase;
-}
-
-
-/* About Shelf */
-.about-shelf {
-    padding: 80px 0;
-}
-
-.about-shelf .content {
-    box-sizing: border-box;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 0 40px;
 }
 
 .about-shelf h2 {
@@ -288,9 +272,13 @@ cite {
 }
 .about-shelf.image-row.blue {
     background: #4fbad4;
+    display: flex;
+    flex-direction: row;
 }
 .about-shelf.image-row.teal {
     background: #329a86;
+    display: flex;
+    flex-direction: row;
 }
 
 .about-shelf.image-row img {
@@ -315,10 +303,9 @@ cite {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-  }
-  /* a:link:hover, a:link:focus, a:visited:hover, a:visited:focus {
-    border: 2px solid #1865f2;
-} */
+}
+
+/* Buttons */
 ._194 {
     display: inline-flex;
     align-items: center;
@@ -332,8 +319,9 @@ cite {
     background: #1865f2;
     color: #ffffff;
     min-width: 280px;
-  }
-  ._z5xa1yk {
+}
+
+._z5xa1yk {
     display: inline-flex;
     align-items: center;
     justify-content: center;
