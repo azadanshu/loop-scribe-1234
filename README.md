@@ -1,13 +1,12 @@
 # Lewrning World
 
-## Introduction
 Welcome to EduSprint, a comprehensive learning platform that enables you to explore and enroll in courses offered by some of the world's most renowned universities. Whether you're seeking knowledge in a specific field or looking to enhance your skills, EduSprint has you covered.
 
 ## Project Type
 Frontend | Backend | Fullstack
 
 ## Deplolyed App
-Frontend: https://deployed-site.whatever
+Frontend: https://65db47bd0acc2cd7481f5439--reliable-maamoul-68e5bc.netlify.app/
 
 ## Directory Structure
 my-app/
