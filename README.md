@@ -1,4 +1,4 @@
-# <a>loop-scribe-1234</a>
+# loop-scribe-1234
 
 ## Introduction
 A brief introduction of your project goes here. You may want to cover the purpose of your project, its core functionality, and what problems it solves.
