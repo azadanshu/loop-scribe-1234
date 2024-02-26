@@ -68,10 +68,12 @@ npm start
 ```
 
 ## Usage
-Provide instructions and examples on how to use your project.
+Instructions and examples on how to use this project.
 
 ```bash
-# Example
+npm install
+npm run server
+npm run dev
 ```
 
 Include screenshots as necessary.
