@@ -79,6 +79,7 @@ Include screenshots as necessary.
 ## Credentials
 - *Credentials for autheticated pages.* <br>
  Email:- subhash@gmail.com
+
  Password:- subhash@123
 
 ## APIs Used
