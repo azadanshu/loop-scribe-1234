@@ -77,7 +77,7 @@ Provide instructions and examples on how to use your project.
 Include screenshots as necessary.
 
 ## Credentials
--*Credentials for autheticated pages*
+*Credentials for autheticated pages.* 
 Email:- subhash@gmail.com
 Password:- subhash@123
 
