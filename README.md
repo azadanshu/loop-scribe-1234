@@ -1,6 +1,5 @@
 # Learning World
-
-Welcome to Learning World, a comprehensive learning platform that enables you to explore and enroll in courses offered by some of the world's most renowned universities. Whether you're seeking knowledge in a specific field or looking to enhance your skills, EduSprint has you covered.
+Welcome to Learning World, a versatile learning platform designed to empower you with access to courses offered by top-tier universities worldwide. Whether you're eager to delve into a particular subject area or keen on honing your skills, Learning World provides the perfect environment for your educational journey.
 
 ## Project Type
 Frontend | Backend | Fullstack
@@ -28,11 +27,14 @@ List out the key features of your application.
 - Seamless Purchase 
 
 ## design decisions or assumptions
-List your design desissions & assumptions
-
+- User-Friendly Interface
+- Responsive Design
+- Comprehensive Course Catalog
+- Search and Filtering Functionality
+- Enrollment and Progress Tracking
+- 
 ## Installation & Getting started
-Detailed instructions on how to install, configure, and get the project running. For BE/FS projects, guide the reviewer how to check mongodb schema etc.
-
+Detailed instructions on how to install
 ```bash
 npm install my-project
 cd my-project
