@@ -37,7 +37,8 @@ List out the key features of your application.
 - **Body Sections:**
   - Multiple pre-designed body sections for diverse content layouts.
   - Simple integration and customization for different page structures.
-  - ![Screenshot (19)](https://github.com/sachinkumanache/code-yogi-4567/assets/150121687/4477935b-bce8-4c15-8ec9-da4717231b05)
+  - ![Screenshot (98)](https://github.com/BhaweshPandey-03/loop-scribe-1234/assets/150121687/1dd91f43-8756-4954-8e32-385d6913e988)
+
 
 - **Carousel:**
   - Interactive image carousel with smooth sliding animations.
