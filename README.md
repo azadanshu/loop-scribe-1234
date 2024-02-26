@@ -32,7 +32,7 @@ List out the key features of your application.
 - Comprehensive Course Catalog
 - Search and Filtering Functionality
 - Enrollment and Progress Tracking
-- 
+
 ## Installation & Getting started
 Detailed instructions on how to install
 ```bash
