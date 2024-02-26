@@ -29,8 +29,9 @@ List out the key features of your application.
 - **Navbar:**
   - Responsive design with dropdown support.
   - Easily customizable styles and configurations.
-  -![navbar](![Screenshot (95)](https://github.com/BhaweshPandey-03/loop-scribe-1234/assets/150121687/635066fc-6cb3-45b9-8083-491b2f401987)
-)
+   ![Screenshot (95)](https://github.com/BhaweshPandey-03/loop-scribe- 
+   1234/assets/150121687/635066fc-6cb3-45b9-8083-491b2f401987)
+  
 
 
 - **Body Sections:**
@@ -41,13 +42,15 @@ List out the key features of your application.
 - **Carousel:**
   - Interactive image carousel with smooth sliding animations.
   - Configurable settings for tailored content presentation.
-  -![carousal](https://github.com/sachinkumanache/code-yogi-4567/assets/150121687/670ae5bb-5497-478b-8fd7-693f57bb56a0)
+  -![Screenshot (96)](https://github.com/BhaweshPandey-03/loop-scribe-1234/assets/150121687/485e7fc5-c34b-4cfe-ae80-26100b7983b3)
+
 
 
 - **Footer:**
   - Professionally styled footer for a polished website appearance.
   - Include essential information and links for a complete user experience.
-   ![footer](https://github.com/sachinkumanache/code-yogi-4567/assets/150121687/db6743c7-47cb-453a-9bf3-5d9e6901c7f1)
+  - ![Screenshot (97)](https://github.com/BhaweshPandey-03/loop-scribe-1234/assets/150121687/8d03c44b-a8a9-442a-998d-6ec1b4c12e66)
+
 
 
 ## design decisions or assumptions
