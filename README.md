@@ -1,6 +1,6 @@
-# Lewrning World
+# Learning World
 
-Welcome to EduSprint, a comprehensive learning platform that enables you to explore and enroll in courses offered by some of the world's most renowned universities. Whether you're seeking knowledge in a specific field or looking to enhance your skills, EduSprint has you covered.
+Welcome to Learning World, a comprehensive learning platform that enables you to explore and enroll in courses offered by some of the world's most renowned universities. Whether you're seeking knowledge in a specific field or looking to enhance your skills, EduSprint has you covered.
 
 ## Project Type
 Frontend | Backend | Fullstack
@@ -15,7 +15,7 @@ my-app/
 │  ├─ ...
 
 ## Video Walkthrough of the project
-Attach a very short video walkthough of all of the features [ 1 - 3 minutes ]
+https://youtu.be/keWAEvFTAHI
 
 ## Video Walkthrough of the codebase
 Attach a very short video walkthough of codebase [ 1 - 5 minutes ]
@@ -23,9 +23,9 @@ Attach a very short video walkthough of codebase [ 1 - 5 minutes ]
 ## Features
 List out the key features of your application.
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Authenticated Sign-Up & Sign-In
+- Dynamic Home page
+- Seamless Purchase 
 
 ## design decisions or assumptions
 List your design desissions & assumptions
