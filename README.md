@@ -24,7 +24,31 @@ List out the key features of your application.
 
 - Authenticated Sign-Up & Sign-In
 - Dynamic Home page
-- Seamless Purchase 
+- Seamless Purchase
+
+- **Navbar:**
+  - Responsive design with dropdown support.
+  - Easily customizable styles and configurations.
+  -![navbar](![Screenshot (95)](https://github.com/BhaweshPandey-03/loop-scribe-1234/assets/150121687/635066fc-6cb3-45b9-8083-491b2f401987)
+)
+
+
+- **Body Sections:**
+  - Multiple pre-designed body sections for diverse content layouts.
+  - Simple integration and customization for different page structures.
+  - ![Screenshot (19)](https://github.com/sachinkumanache/code-yogi-4567/assets/150121687/4477935b-bce8-4c15-8ec9-da4717231b05)
+
+- **Carousel:**
+  - Interactive image carousel with smooth sliding animations.
+  - Configurable settings for tailored content presentation.
+  -![carousal](https://github.com/sachinkumanache/code-yogi-4567/assets/150121687/670ae5bb-5497-478b-8fd7-693f57bb56a0)
+
+
+- **Footer:**
+  - Professionally styled footer for a polished website appearance.
+  - Include essential information and links for a complete user experience.
+   ![footer](https://github.com/sachinkumanache/code-yogi-4567/assets/150121687/db6743c7-47cb-453a-9bf3-5d9e6901c7f1)
+
 
 ## design decisions or assumptions
 - User-Friendly Interface
