@@ -9,10 +9,9 @@ Frontend: https://65db47bd0acc2cd7481f5439--reliable-maamoul-68e5bc.netlify.app/
 
 ## Directory Structure
 my-app/
-├─ backend/
 ├─ frontend/
 │  ├─ ...
-
+├─ backend/
 ## Video Walkthrough of the project
 https://youtu.be/keWAEvFTAHI
 
