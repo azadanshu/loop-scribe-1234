@@ -29,9 +29,7 @@ List out the key features of your application.
 - **Navbar:**
   - Responsive design with dropdown support.
   - Easily customizable styles and configurations.
-   ![Screenshot (95)](https://github.com/BhaweshPandey-03/loop-scribe- 
-   1234/assets/150121687/635066fc-6cb3-45b9-8083-491b2f401987)
-  
+  - ![Screenshot (95)](https://github.com/BhaweshPandey-03/loop-scribe-1234/assets/150121687/bd45445c-8df4-4a3b-8e08-b2d0253decf1)
 
 
 - **Body Sections:**
