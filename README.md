@@ -77,9 +77,9 @@ Provide instructions and examples on how to use your project.
 Include screenshots as necessary.
 
 ## Credentials
-*Credentials for autheticated pages.* 
-Email:- subhash@gmail.com
-Password:- subhash@123
+- *Credentials for autheticated pages.* 
+ Email:- subhash@gmail.com
+ Password:- subhash@123
 
 ## APIs Used
 If your application relies on external APIs, document them and include any necessary links or references.
