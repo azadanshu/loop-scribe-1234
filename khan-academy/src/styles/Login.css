@@ -41,8 +41,9 @@
   }
   
   .loginText {
-    font-size: 1.5rem;margin-top: -20px; 
+    font-size: 1.2rem;margin-top: -20px; 
     font-weight: bold;
+    color: white;
   }
   
   .loginForm {
@@ -87,7 +88,9 @@ font-weight: bold;
     margin-top: 10px;
   }
   
-  
+  .donotHAcc{
+    color: white;
+  }
   @media (max-width: 768px) {
     .loginVideo-bg {
       width: 100%;

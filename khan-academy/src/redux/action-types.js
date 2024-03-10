@@ -109,9 +109,13 @@ export const getCourses = (search) => {
     dispatch({ type: GET_COURSES_REQUEST });
     try {
       if (search) {
+        // let data = await axios.get(
+        //   `http://localhost:8080/courses?courseTitle_like=${search}`
+        // );
         console.log("Search", search);
         let data = await axios.get(`${url}/courses?${search}`);
 
+        // let data = await axios.get(`${url}/courses?courseTitle_like=${search}`);
         console.log(`${url}/courses?courseTitle_like=${search}`);
         dispatch({
           type: GET_COURSES_SUCCESS,
@@ -119,7 +123,7 @@ export const getCourses = (search) => {
         });
       } else {
         let data = await axios.get(`${url}/courses`);
-
+        // let data = await axios.get(`http://localhost:8080/courses`);
         dispatch({
           type: GET_COURSES_SUCCESS,
           payload: { isLoading: false, courses: data.data },
@@ -129,6 +133,7 @@ export const getCourses = (search) => {
   };
 };
 
+// const navigate = useNavigate();
 export const getLogged = (email, pass) => {
   return async (dispatch) => {
     dispatch({ type: CHANGE_LOGIN_REQUEST });

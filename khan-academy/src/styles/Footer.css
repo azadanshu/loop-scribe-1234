@@ -38,6 +38,7 @@
 }
 .footer-section h2 {
   font-size: 24px;
+  /* margin-left:25px; */
   margin-bottom: 15px;
   color: white;
 }
@@ -63,15 +64,22 @@
   text-decoration: none;
   color: #fff;
   font-size: 16px;
-  /* margin-bottom: 10px; */
+  margin-bottom: 10px;
   display: block;
   transition: color 0.3s ease-in-out;
+  margin-left: -30px;
 }
 
 .footer-links a:hover {
   color: #1eb2a6;
 }
+/* .descriptiontext{
+  width: 200px;
+} */
 
+.links > div{
+margin-left: 30px;
+}
 .contact-form .footer-form {
   display: flex;
   flex-direction: column;

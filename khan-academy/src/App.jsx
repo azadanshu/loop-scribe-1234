@@ -1,29 +1,32 @@
+import "./App.css";
+import { Provider } from "react-redux";
+import { store } from "./Redux/store";
 
-// import './App.css'
-import { useEffect, useState } from 'react'
-import { AllRoutes } from './AllRoutes/AllRoutes';
-import Navbar from './Components/Navbar/Navbar';
-import About from './Components/About/About';
-import Footer from './Components/Footer/Footer';
+import { BrowserRouter } from "react-router-dom";
+
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import { ChakraProvider } from "@chakra-ui/react";
+import AllRoutes from "./Allroutes/MainRoute";
 
 
 function App() {
-  const current_theme = localStorage.getItem('current_theme');
-  const [theme,setTheme] = useState(current_theme?current_theme:'light');
-  useEffect(()=>{
-    localStorage.setItem('current_theme',theme)
-  },[theme])
-
   return (
-    <>
-    {/* <div className={`container ${theme}`}>
-      <Navbar theme={theme} setTheme={setTheme}/>
-      <AllRoutes/>
-    </div>   */}
-    <About />
-    <Footer />
-    </>
-  )
+    <Provider store={store}>
+      <BrowserRouter>
+        <ChakraProvider>
+          <div className="App">
+            <Navbar />
+
+            <AllRoutes />
+
+            <Footer />
+        
+          </div>
+        </ChakraProvider>
+      </BrowserRouter>
+    </Provider>
+  );
 }
 
-export default App
+export default App;

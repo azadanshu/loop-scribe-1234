@@ -77,7 +77,7 @@ export const reducer = (state = initialState, action) => {
       };
     case DELETE_FROM_REGISTERED_COURSES:
       const updatedRegisteredcart = state.registeredCourses.filter(
-        (item) => item.id != action.payload.id
+        (item) => item.id !== action.payload.id
       );
       return { ...state, registeredCourses: updatedRegisteredcart };
 
@@ -88,7 +88,7 @@ export const reducer = (state = initialState, action) => {
     case CHANGE_LOGIN_LOGOUT:
       return { ...state, isLoggedIn: false, user: {} };
     case RESET_CART:
-      return { ...state, cart: [] };
+        return {...state,cart:[]}
     default:
       return state;
   }
